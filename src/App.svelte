@@ -1,5 +1,5 @@
-<script>
-	const message = 'Learn Svelte';
+<script lang="ts">
+	const message : string = 'Learn Svelte';
 </script>
 
 <style>
@@ -29,6 +29,14 @@
 		margin-bottom: 1.0rem;
 		animation: App-logo-spin infinite 1.6s ease-in-out alternate;
 	}
+
+  .small {
+    font-size: calc(10px + 1vmin);
+  }
+
+  .padding {
+    padding: 1.0rem
+  }
 	@keyframes App-logo-spin {
 		from {
 			transform: scale(1);
@@ -46,12 +54,20 @@
 			Edit <code>src/App.svelte</code> and save to reload.
 		</p>
 		<a
-			class="App-link"
+			class="App-link padding"
 			href="https://svelte.dev"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
 			{message}
+		</a>
+		<a
+			class="App-link small padding"
+			href="https://vaishnavsm.github.io"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			Check Me Out :)
 		</a>
 	</header>
 </div>

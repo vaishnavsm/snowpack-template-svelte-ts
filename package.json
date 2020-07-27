@@ -1,17 +1,31 @@
 {
+  "main": "snowpack.config.js",
+  "description": "A simplified svelte+typescript application configured with snowpack",
+  "keywords": [
+    "snowpack",
+    "svelte",
+    "typescript",
+    "ts"
+  ],
+  "author": {
+    "name": "Vaishnav Sreekanth Menon",
+    "email": "vaishnavsm@gmail.com",
+    "url": "https://vaishnavsm.github.io"
+  },
+  "license": "MIT",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
-    "test": "jest"
+    "validate": "svelte-check"
   },
-  "dependencies": {
-    "svelte": "^3.21.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@snowpack/app-scripts-svelte": "^1.7.0",
-    "@testing-library/jest-dom": "^5.5.0",
-    "@testing-library/svelte": "^3.0.0",
-    "jest": "^25.4.0",
-    "snowpack": "^2.6.4"
+    "@tsconfig/svelte": "^1.0.3",
+    "@vaishnavsm/snowpack-svelte-conf": "^1.0.0",
+    "snowpack": "^2.6.4",
+    "svelte": "^3.21.0",
+    "svelte-preprocess": "^4.0.8",
+    "svelte-check": "^0.1.0",
+    "typescript": "^3.9.7"
   }
 }
