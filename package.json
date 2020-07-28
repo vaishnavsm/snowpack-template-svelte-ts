@@ -21,7 +21,7 @@
   "dependencies": {},
   "devDependencies": {
     "@tsconfig/svelte": "^1.0.3",
-    "@vaishnavsm/snowpack-svelte-conf": "^1.0.0",
+    "@snowpack/app-scripts-svelte": "^1.0.0",
     "snowpack": "^2.6.4",
     "svelte": "^3.21.0",
     "svelte-preprocess": "^4.0.8",

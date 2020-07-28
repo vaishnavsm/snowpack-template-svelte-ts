@@ -8,8 +8,14 @@ To create an application using this as a template, use degit:
 npx degit vaishnavsm/snowpack-template-svelte-ts svelte-ts-app
 ```
 
-This is a minimal configuration, without a testing system installed.
-Importantly, this does **not** use the official svelte configuration (app-scripts-svelte) but a simplified version written by myself. This removes the need for jest.
+This now supports both the official snowpack svelte confguration (app-scripts-svelte) as default as well as a minimal config without jest.
+To use the minimal configuration, use the no-jest branth:
+```
+npx degit vaishnavsm/snowpack-template-svelte-ts svelte-ts-app#no-jest
+```
+
+The no-jest branch is a minimal configuration, without a testing system installed.
+Importantly, this branch does **not** use the official svelte configuration (app-scripts-svelte) but a simplified version written by myself. This removes the need for jest.
 
 Do remember that snowpack uses babel to compile ts, which does not check the types set by ts!
 
